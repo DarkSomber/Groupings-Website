@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Rowdies:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    /*border: solid lime;*/
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #212B36;
+    font-family: "Rowdies", serif;
+    font-weight: 500;
+    font-style: normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: brightness(90%) saturate(101%) contrast(101%);
+}
+
+header {
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.801);
+    border-radius: 60px;
+    box-shadow: rgba(255, 255, 255, 0.04) 1.2px 0px 0px 0px inset, rgba(255, 255, 255, 0.04) -1.2px 0px 0px 0px inset, rgba(255, 255, 255, 0.1) 0px 1.2px 0px 0px inset, rgba(255, 255, 255, 0.1) 0px 0.6px 0px 0px inset;
+    max-width: 60rem;
+    width: 60rem;
+    opacity: 1;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 48px;
+    justify-content: space-between;
+    overflow: visible;
+    padding: 16px 30px;
+    position: relative;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    position: sticky;
+    top: 2px;
+}
+
+a,
+li {
+    text-decoration: none;
+    color: #C0C0C0;
+    font-size: 13px;
+}
+
+.logo {
+    justify-content: center;
+    width: 176px;
+    height: 48x;
+    margin: 0;
+    margin-top: 2px;
+    margin-right: auto;
+    padding: 0;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #212B36;
+}
+
+button {
+    border: none;
+    border-radius: 15px;
+    padding: 9px 25px;
+    margin-left: 10px;
+    background-color: rgba(0, 136, 169, 1);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, .5);
+    color: #C0C0C0;
+    transition: all 0.3s ease 0s;
+}
+
+/*Main*/
+
+
+.content-wrapper {
+    width: fit-content;
+    max-width: 90rem;
+    height: fit-content;
+    display: flex;
+    margin: 10% 10% 5% 10%;
+    box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
+    border-radius: 15px 15px 15px 15px;
+    background-color: transparent;
+}
+
+.content-front {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 80vh;
+}
+
+.company-preview-logo {
+    background-color: rgba(208,208,208, .6);
+    border: none;
+    border-radius: 15px 0px 0px 15px;
+    width: fit-content;
+    height: 100%;
+    margin-right: 0;
+}
+
+.company-logo {
+    width: 200px;
+    height: 200px; 
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.company-introduction {
+    border-radius: 0px 15px 15px 0px;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: left;
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.801);
+    box-shadow: rgba(255, 255, 255, 0.04) 1.2px 0px 0px 0px inset, rgba(255, 255, 255, 0.04) -1.2px 0px 0px 0px inset, rgba(255, 255, 255, 0.1) 0px 1.2px 0px 0px inset, rgba(255, 255, 255, 0.1) 0px 0.6px 0px 0px inset;
+}
+
+.content-front-text {
+    font-size: 25px;
+    color: #C0C0C0;
+    padding: 15px;
+    margin: 10px;
+    text-indent: 30px;
+}
+
+/*Second part Main*/
+
+.content-wrapper2 {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row-reverse;
+    box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
+    border-radius: 15px 15px 15px 15px;
+    margin: 0% 0% 0% 20%;
+}
+
+.company-preview-logo2 {
+    background-color: #37465b;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    width: fit-content;
+    height: 200px;
+    margin-right: 0;
+}
+
+.photo-sample {
+    width: 200px;
+    height: 200px; 
+    border-radius: 0px 15px 15px 0px;
+}
+
+.company-introduction2 {
+    border-radius: 15px 0px 0px 15px;
+    width: 1000px;
+    height: 200px;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: left;
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.801);
+    box-shadow: rgba(255, 255, 255, 0.04) 1.2px 0px 0px 0px inset, rgba(255, 255, 255, 0.04) -1.2px 0px 0px 0px inset, rgba(255, 255, 255, 0.1) 0px 1.2px 0px 0px inset, rgba(255, 255, 255, 0.1) 0px 0.6px 0px 0px inset;
+}

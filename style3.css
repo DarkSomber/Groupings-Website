@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Rowdies:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    /*border: solid lime;*/
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #212B36;
+    font-family: "Rowdies", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: brightness(90%) saturate(101%) contrast(101%) blur(2px);
+}
+
+header {
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.801);
+    border-radius: 60px;
+    box-shadow: rgba(255, 255, 255, 0.04) 1.2px 0px 0px 0px inset, rgba(255, 255, 255, 0.04) -1.2px 0px 0px 0px inset, rgba(255, 255, 255, 0.1) 0px 1.2px 0px 0px inset, rgba(255, 255, 255, 0.1) 0px 0.6px 0px 0px inset;
+    max-width: 60rem;
+    width: 60rem;
+    opacity: 1;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 48px;
+    justify-content: space-between;
+    overflow: visible;
+    padding: 16px 30px;
+    position: relative;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    position: sticky;
+    top: 2px;
+}
+
+a,
+li {
+    text-decoration: none;
+    color: #C0C0C0;
+    font-size: 13px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    justify-content: center;
+    width: 176px;
+    height: 48x;
+    margin: 0;
+    margin-top: 2px;
+    margin-right: auto;
+    padding: 0;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #212B36;
+}
+
+button {
+    border: none;
+    border-radius: 15px;
+    padding: 9px 25px;
+    margin-left: 10px;
+    background-color: rgba(0, 136, 169, 1);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, .5);
+    color: #C0C0C0;
+    transition: all 0.3s ease 0s;
+}
+
+/*Main*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+
+
+.context-information-why-us {
+    width: 60vw;
+    height: fit-content;
+}
+
+.text-message {
+    text-indent: 40px;
+    color: #C0C0C0;
+    background-color: #212B36;
+    padding: 50px;
+    font-size: 20px;
+    line-height: 35px;
+    word-spacing: 3px;
+    background-color: rgba(0, 0, 0, 0.801);
+    border-radius: 60px;
+    box-shadow: rgba(255, 255, 255, 0.04) 1.2px 0px 0px 0px inset, rgba(255, 255, 255, 0.04) -1.2px 0px 0px 0px inset, rgba(255, 255, 255, 0.1) 0px 1.2px 0px 0px inset, rgba(255, 255, 255, 0.1) 0px 0.6px 0px 0px inset;
+}
+
+.text-message:hover {
+    background-color: rgba(0, 0, 0, 1);
+    transition: all 0.3s ease 0s;
+}
+
+.text-message li {
+    font-size: 20px;
+    line-height: 35px;
+    word-spacing: 3px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.text-message ul {
+    margin-top: 3rem;
+}
+
+.emphasis {
+    font-size: 50px
+}
+
+.long-message {
+    margin-top: 3rem;
+}
+
+.indent-text {
+    text-indent: 20px;
+    padding: 3px;
+}

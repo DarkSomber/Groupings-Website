@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Rowdies:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    /*border: solid lime;*/
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(images/laptop-2838921_1920.jpg), url(images/austin-distel-wD1LRb9OeEo-unsplash.jpg);
+    background-position: top, bottom;
+    font-family: "Rowdies", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-repeat: no-repeat;
+    background-size: contain;
+    backdrop-filter: brightness(70%) saturate(101%) contrast(101%);
+}
+
+header {
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.801);
+    border-radius: 60px;
+    box-shadow: rgba(255, 255, 255, 0.04) 1.2px 0px 0px 0px inset, rgba(255, 255, 255, 0.04) -1.2px 0px 0px 0px inset, rgba(255, 255, 255, 0.1) 0px 1.2px 0px 0px inset, rgba(255, 255, 255, 0.1) 0px 0.6px 0px 0px inset;
+    max-width: 60rem;
+    width: 60rem;
+    opacity: 1;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 48px;
+    justify-content: space-between;
+    overflow: visible;
+    padding: 16px 30px;
+    position: relative;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    position: sticky;
+    top: 2px;
+}
+
+a,
+li {
+    text-decoration: none;
+    color: #C0C0C0;
+    font-size: 13px;
+}
+
+.logo {
+    justify-content: center;
+    width: 176px;
+    height: 48x;
+    margin: 0;
+    margin-top: 2px;
+    margin-right: auto;
+    padding: 0;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #212B36;
+}
+
+button {
+    border: none;
+    border-radius: 15px;
+    padding: 9px 25px;
+    margin-left: 10px;
+    background-color: rgba(0, 136, 169, 1);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, .5);
+    color: #C0C0C0;
+    transition: all 0.3s ease 0s;
+}
+
+/*Main*/
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+    padding: 25px;
+
+}
+
+.about-us-category {
+    position: relative;
+    right: 20rem;
+}
+
+.quote {
+    font-size: 100px;
+    font-style: oblique;
+    text-shadow: 4px 2px 6px rgba(255,255,255,0.6);
+}
+
+.about-us-information {
+    width: fit-content;
+    height: fit-content;
+
+    display: flex;
+    margin: 7% 10% 10px 10%;
+    padding: 20px;
+    box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
+    border-radius: 15px 15px 15px 15px;
+    background-color: transparent;
+    font-size: 35px;
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+.content-information {
+    text-indent: 50px;
+}
