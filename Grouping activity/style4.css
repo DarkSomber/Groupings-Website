@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Rowdies:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    /*border: solid limegreen;*/
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(images/annie-spratt-jFtBa6aEJqk-unsplash.jpg), url(images/olivier-collet-JMwCe3w7qKk-unsplash.jpg), url(images/building_your_home_computer.jpg);
+    background-repeat: no-repeat;
+    background-position: top, center, bottom;
+    background-color: #212B36;
+    font-family: "Rowdies", serif;
+    font-weight: 500;
+    font-style: normal;
+    background-repeat: no-repeat;
+    background-size: contain;
+    backdrop-filter: brightness(90%) saturate(101%) contrast(101%) blur(10px);
+}
+
+header {
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.801);
+    border-radius: 60px;
+    box-shadow: rgba(255, 255, 255, 0.04) 1.2px 0px 0px 0px inset, rgba(255, 255, 255, 0.04) -1.2px 0px 0px 0px inset, rgba(255, 255, 255, 0.1) 0px 1.2px 0px 0px inset, rgba(255, 255, 255, 0.1) 0px 0.6px 0px 0px inset;
+    max-width: 60rem;
+    width: 60rem;
+    opacity: 1;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 48px;
+    justify-content: space-between;
+    overflow: visible;
+    padding: 16px 30px;
+    position: relative;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    position: sticky;
+    top: 2px;
+}
+
+a,
+li {
+    text-decoration: none;
+    color: #C0C0C0;
+    font-size: 13px;
+}
+
+.logo {
+    justify-content: center;
+    width: 176px;
+    height: 48x;
+    margin: 0;
+    margin-top: 2px;
+    margin-right: auto;
+    padding: 0;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #212B36;
+}
+
+button {
+    border: none;
+    border-radius: 15px;
+    padding: 9px 25px;
+    margin-left: 10px;
+    background-color: rgba(0, 136, 169, 1);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, .5);
+    color: #C0C0C0;
+    transition: all 0.3s ease 0s;
+}
+
+/*main*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.facility-category {
+    position: relative;
+    right: 20rem;
+}
+
+.quote {
+    font-size: 100px;
+    font-style: oblique;
+    text-shadow: 4px 2px 6px rgba(255,255,255,0.6);
+}
+
+.facility-image-wrapper {
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    border-radius: 25px;
+    margin-top: 5rem;
+    box-shadow: rgba(255, 255, 255, 0.04) 1.2px 0px 0px 0px inset, rgba(255, 255, 255, 0.04) -1.2px 0px 0px 0px inset, rgba(255, 255, 255, 0.1) 0px 1.2px 0px 0px inset, rgba(255, 255, 255, 0.1) 0px 0.6px 0px 0px inset;
+}
+
+.facility-room {
+    width: 250px;
+    height: 200px;
+    margin: 25px;
+}
+
+.image-round {
+    border: none;
+    border-radius: 25px;
+    width: 800px;
+}
+
+/*Seperate Rooms Showcase*/
+
+.image-cutout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    width: 90rem;
+    height: auto;
+    margin: auto;
+    max-width: 100rem;
+    max-height: 32rem;
+    margin-top: 10rem;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: rgba(255, 255, 255, 0.04) 1.2px 0px 0px 0px inset, rgba(255, 255, 255, 0.04) -1.2px 0px 0px 0px inset, rgba(255, 255, 255, 0.1) 0px 1.2px 0px 0px inset, rgba(255, 255, 255, 0.1) 0px 0.6px 0px 0px inset;
+}
+
+.image-holder {
+    max-height: 20rem;
+    height: 30rem;
+    max-width: 30rem;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.image-shape{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.text-holder {
+    width: 67rem;
+    height: 20rem;
+    font-size: 20px;
+    background-color: #212b368e;
+    padding: 15px;
+    margin-left: 0;
+    color: rgb(192, 192, 192);
+    font-size: 25px;
+    text-indent: 20px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.text-holder:hover {
+    background-color: black;
+    transition: all 0.3s ease 0s;
+}
+
